@@ -1,10 +1,10 @@
-name: Example Profile
+name: Drupal HRMS
 type: profile
-description: Example for profile creation in Drupal8.
+description: Human Resource Management System.
 core: 8.x
 
 distribution:
-  name: Example Distribution.
+  name: Drupal HRMS.
 
 dependencies:
   - automated_cron

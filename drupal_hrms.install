@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Install, update and uninstall hooks for the Example Profile install profile.
+ * Install, update and uninstall hooks for the Drupal HRMS Profile install profile.
  */
 
 /**
@@ -12,7 +12,7 @@
  *
  * @see system_install()
  */
-function example_profile_install() {
+function drupal_hrms_install() {
   // First, do everything that is done in the standard profile.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
